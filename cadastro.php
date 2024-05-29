@@ -7,7 +7,7 @@ function check_connection_error($conn) {
 }
 
 
-$conn = new mysqli('localhost', 'root', 'xandre@2024', 'rh');
+$conn = new mysqli('localhost', 'root', '', 'rh');
 check_connection_error($conn);
 
 
